@@ -20,6 +20,9 @@ class SlideFromRightScreen extends Component {
       headerTitleStyle: {
         color: 'white'
       },
+      headerBackTitleStyle:{
+        color:'white'
+      }
     }
 
   }

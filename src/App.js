@@ -7,7 +7,7 @@ import {
 import BaseScreen from './BaseScreen';
 import SlideFromRightScreen from './SlideFromRightScreen';
 import CollapseExpandScreen from './CollapseExpandScreen';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 
 let CollapseExpand = (index, position) => {
   const inputRange = [index - 1, index, index + 1];
@@ -63,7 +63,7 @@ const TransitionConfiguration = () => {
 
 
 
-const App = StackNavigator({
+const App = createStackNavigator({
   SlideFromRight: { screen: SlideFromRightScreen },
   Base: { screen: BaseScreen },
   CollapseExpand: { screen: CollapseExpandScreen }

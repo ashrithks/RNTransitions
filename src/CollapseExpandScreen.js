@@ -20,6 +20,9 @@ class CollapseExpandScreen extends Component {
       headerTitleStyle: {
         color: 'white'
       },
+      headerBackTitleStyle:{
+        color:'white'
+      }
     }
 
   }
