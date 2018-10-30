@@ -30,7 +30,7 @@ class SlideFromRightScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-      <Text style={styles.textButton}>SCREEN</Text>
+      <Text onPress={()=>{this.props.navigation.goBack()}} style={styles.textButton}>SCREEN</Text>
       </View>
     )
   }
